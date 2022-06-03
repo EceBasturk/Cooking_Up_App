@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">297478409057-iqm0a2vrasdqvtqh082rv3tccnvupihf.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">297478409057</string>
+    <string name="google_api_key" translatable="false">AIzaSyDv3WaP0Q5KPGj-BXu5M6Q0hARfoRGFcTI</string>
+    <string name="google_app_id" translatable="false">1:297478409057:android:29a4ecd83cd069a83b9320</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDv3WaP0Q5KPGj-BXu5M6Q0hARfoRGFcTI</string>
+    <string name="google_storage_bucket" translatable="false">receipe-e1fd1.appspot.com</string>
+    <string name="project_id" translatable="false">receipe-e1fd1</string>
+</resources>

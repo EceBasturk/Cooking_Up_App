@@ -1,0 +1,28 @@
+^C:\USERS\ECEBS\DESKTOP\RECIPE-APP\BUILD\WINDOWS\CMAKEFILES\EF0EFFD9247C888C847EFB1F2BB467D8\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\ecebs\Desktop\Recipe-App FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\ecebs\Desktop\Recipe-App\windows\flutter\ephemeral PROJECT_DIR=C:\Users\ecebs\Desktop\Recipe-App FLUTTER_TARGET=C:\Users\ecebs\Desktop\Recipe-App\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\ecebs\Desktop\Recipe-App\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ECEBS\DESKTOP\RECIPE-APP\BUILD\WINDOWS\CMAKEFILES\2EEEF1067D095AE15FB1FD480287F8D3\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ECEBS\DESKTOP\RECIPE-APP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ecebs/Desktop/Recipe-App/windows -BC:/Users/ecebs/Desktop/Recipe-App/build/windows --check-stamp-file C:/Users/ecebs/Desktop/Recipe-App/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
