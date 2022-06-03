@@ -1,1 +1,1 @@
-<img src="https://imgflip.com/embed/6iiuis">
+<img src="https://imgflip.com/gif/6iiuis">
